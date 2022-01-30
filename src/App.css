@@ -1,0 +1,138 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background: hsl(137deg 35% 92%);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.tj_header h1{
+  margin: 25px 0px;
+  text-align: center;
+  font-size: 80px;
+  font-family: 'Lato', sans-serif;
+}
+
+
+.App__container{
+  margin: 0 auto;
+  max-width: 1000px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0px 8px 25px rgb(195 212 245 / 90%);
+  margin-bottom: 50px;
+}
+
+.App__container nav{
+  background-color: #e44052;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  justify-content: center;
+  padding: 10px 0px;
+}
+
+
+.App__container nav img{
+  max-width: 80px;
+  margin-right: 15px;
+}
+
+
+.Journel_Lisiting{
+  padding: 35px 0px;
+}
+.tj_list__item {
+  display: flex;
+  padding-bottom: 40px;
+}
+
+.Journel_Lisiting .tj_list__item:last-child{
+  padding-bottom: 0px;
+}
+
+.tj_list__item__img{
+  max-width: 200px;
+  width: 100%;
+}
+
+.tj_list__item__img img{
+  width: 100%;
+  height: 100%;
+}
+
+.tj_list__item__content{
+  padding: 0 0 0 25px;
+}
+
+.tj_list__item__location {
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+}
+
+.tj_list__item__location a{
+  text-decoration: underline;
+  color: rgb(34, 34, 34);
+  font-size: 12px;
+}
+
+.tj_list__item__text {
+  font-size: 15px;
+  color: gray;
+  font-weight: 400;
+  font-family: 'Open+Sans', sans-serif;
+}
+
+.tj_list__item__description span {
+  color: rgb(36, 5, 5);
+  font-size: 14px;
+  margin-bottom: 10PX;
+  display: block;
+}
+
+.location_icon img{
+  width: 25px;
+  margin-right: 10px;
+  margin-left: -3px;
+}
+
+span.location_icon {
+  display: flex;
+  align-items: center;
+}
+
+.list_item_avaliblity{
+  position: absolute;
+  font-size: 12px;
+  padding: 5px;
+  background-color: #e44052;
+  color: #ffffff;
+}
+
+@media( max-width:767px ) {
+
+  .tj_header h1{
+    font-size: 55px;
+  }
+
+  .tj_list__item{
+    display: block;
+  }
+
+  .Journel_Lisiting{
+    padding: 0px 0px 35px 0px;
+  }
+  .tj_list__item__content {
+    padding: 0 0 0 0px;
+  }
+
+  .tj_list__item__img{
+    max-width: 100%;
+    padding-bottom: 25px;
+  }
+
+}
